@@ -1,5 +1,5 @@
 var inquirer = require("inquirer");
-var generateMarkdown = require("./utils/generateMarkdown");
+var generateMarkdown = require("./markdown/generateMarkdown");
 var axios = require("axios");
 var fs = require("fs");
 
@@ -47,13 +47,13 @@ const questions = [
     message: "What are the steps required to run your project?",
     name: "usage",
     default:
-      "1.Run node index.js 2.Answer the question above 3.The README file will then be generated with your response."
+      "1.Run node index.js 2.Answer the questions above 3.The README file will then be generated with your response."
   },
 
   {
     type: "input",
     message:
-      "Who made this project?)",
+      "Who made this project?",
     name: "contributors",
     default: "kjlabs"
   },
