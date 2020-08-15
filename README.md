@@ -1,12 +1,11 @@
-function generateMarkdown(data, githubInfo) {
-  return `
-# **${data.title}**
 
-${data.badge}
+# **Readme File Generator**
+
+undefined
 
 ## Description 
 
-${data.description}
+undefined
 
 ## Table of contents
 
@@ -22,34 +21,30 @@ ${data.description}
 
 ## Installation
 
-        ${data.installation}
+        undefined
 
 ## Usage
 
-${data.usage}
+After you've ran npm install, then just answer the above questions. 
 
 ## Licence
 
-${data.licence}
+undefined
 
 ## Contributors
 
-${data.contributing}
+undefined
 
 ## Test
 
-${data.test}
+undefined
 
 
 ## Repository
 
-- [Project Repo](${data.repo})
+- [Project Repo](https://github.com/KJ-Labs/Readme-File-Generator)
 
 ## GitHub
 
 
 
-`;
-}
-
-module.exports = generateMarkdown;

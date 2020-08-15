@@ -10,7 +10,7 @@ const questions = [
   {
     type: "input",
     message: "What is your GitHub user name?",
-    name: "username"
+    name: "KJ-Labs"
   },
 
   {
@@ -55,7 +55,7 @@ const questions = [
     message:
       "Who made this project?",
     name: "contributors",
-    default: "kjlabs"
+    default: "KJ-Labs"
   },
 
   {
