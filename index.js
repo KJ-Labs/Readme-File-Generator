@@ -79,7 +79,7 @@ const questions = [
     type: "input",
     name: "badge",
     message: "Please provide the badges links that you want",
-    default: "badge1"
+    default: "License:MIT"
 },
 
   {

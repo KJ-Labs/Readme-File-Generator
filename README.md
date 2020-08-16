@@ -1,6 +1,6 @@
 
 # **Readme File Generator **
-badge1
+License:MIT
 
 ## Description 
 
