@@ -26,11 +26,11 @@ ${data.description}
 
 ## Installation
 
- ${data.installation}
+        ${data.installation}
 
 ## Usage
 
-${data.usage}
+        ${data.usage}
 
 ## License
 ${data.license} 
