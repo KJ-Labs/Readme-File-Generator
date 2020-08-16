@@ -12,7 +12,7 @@ ${data.screenshots}
 ## Description 
 
 ${data.description}
-![Git](${readmevideo.gif})   
+![Git](${data.video})   
 
 
 
