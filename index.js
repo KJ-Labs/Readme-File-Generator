@@ -31,6 +31,22 @@ const questions = [
 
   {
     type: "input",
+    message: "Is there a video demonstrating the project? If so, please put it below.",
+    name: "video",
+    default: "readmevideo.wbm"
+  },
+
+  {
+    type: "input",
+    message: "Are there screenshots of the project? If so, please put it below.",
+    name: "screenshots",
+    default: "screenshot.png"
+  },
+
+
+
+  {
+    type: "input",
     message: "How do you describe your Project?.",
     name: "description",
     default:
