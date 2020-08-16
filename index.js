@@ -77,10 +77,11 @@ const questions = [
 
 
   {
-    type: "input",
+    type: "list",
     message: "What is the license used?",
     name: "license",
-    default: "MIT"
+    choices: ["Apache",  "MIT", "GTL"]
+
   },
   {
     type: "input",
