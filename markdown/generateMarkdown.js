@@ -5,20 +5,20 @@ var year = day.getFullYear();
 function generateMarkdown(data, githubInfo) {
   return `
 # ${data.title}
-${data.screenshots}
+
+![Git](${data.screenshots})  
+
+
 
 ![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
 
 ## Description 
 
+![Git](${data.video})  
+
 ${data.description}
 
-
-
-![Git](${data.video})   
-
-
-
+ 
 ## Table of contents
 
 - [Description](#description)
