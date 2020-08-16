@@ -6,12 +6,13 @@ function generateMarkdown(data, githubInfo) {
   return `
 # ${data.title}
 ${data.screenshots}
+
 ![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
 
 ## Description 
 
 ${data.description}
-![Git](${data.video})   
+![Git](${readmevideo.gif})   
 
 
 

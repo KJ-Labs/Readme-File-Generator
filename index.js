@@ -33,7 +33,7 @@ const questions = [
     type: "input",
     message: "Is there a video demonstrating the project? If so, please put it below.",
     name: "video",
-    default: "readmevideo.wbm"
+    default: "readmevideo.gif"
   },
 
   {

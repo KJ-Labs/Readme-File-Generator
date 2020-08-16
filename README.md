@@ -1,12 +1,13 @@
 
 # Readme File Generator 
 screenshot.png
+
 ![Badges](https://img.shields.io/badge/License-MIT-Blue)
 
 ## Description 
 
 The purpose of this project is to create a customized readme file, without having to manually format the data and add all the sections needed.
-![Git](readmevideo.wbm)   
+![Git](readmevideo.gif)   
 
 
 
