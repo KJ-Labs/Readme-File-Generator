@@ -4,19 +4,17 @@ var year = day.getFullYear();
 // Function generates the whole readme from the data created in index.js
 function generateMarkdown(data, githubInfo) {
   return `
-# ${data.title}
 
 ![Git](${data.screenshots})  
-
-
+# ${data.title}
 
 ![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
 
 ## Description 
-
-![Git](${data.video})  
-
 ${data.description}
+
+## Project Demonstration
+![Git](${data.video})  
 
  
 ## Table of contents
