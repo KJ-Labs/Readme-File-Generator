@@ -40,7 +40,7 @@ const questions = [
     type: "input",
     message: "Are there screenshots of the project? If so, please put it below.",
     name: "screenshots",
-    default: "screenshot.png"
+    default: "screenshot.PNG"
   },
 
 
