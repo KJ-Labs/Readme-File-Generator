@@ -34,7 +34,7 @@ const questions = [
     message: "How do you describe your Project?.",
     name: "desc",
     default:
-      " This application creates a customized readme file for your projects"
+      "The purpose of this project is to create a customized readme file, without having to manually format the data and add all the sections needed."
   },
 
   {
