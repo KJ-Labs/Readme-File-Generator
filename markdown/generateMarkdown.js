@@ -24,7 +24,7 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributors)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 - [Repository Link](#repository)
@@ -45,9 +45,9 @@ ${data.license}
 
 ${RenderLicense(data.license)}
 
-## Contributing
+## contributing
 
-${data.contributors}
+${data.contributing}
 
 ## Tests
 

@@ -77,7 +77,7 @@ const questions = [
     type: "input",
     message:
       "Who made this project?",
-    name: "contributors",
+    name: "contributing",
     default: "The owner of this project is KJ-Labs, you're welcome to contribute."
   },
 
