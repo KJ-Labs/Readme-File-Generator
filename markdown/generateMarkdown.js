@@ -13,7 +13,7 @@ ${data.desc}
 - [Installation](#install)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributors)
+- [Contributors](#contributors)
 - [Tests](#tests)
 - [Questions](#questions)
 - [Repository Link](#repository)
@@ -29,7 +29,7 @@ ${data.desc}
 ${data.usage}
 
 ## License
-![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
+${data.license}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
