@@ -45,7 +45,7 @@ ${data.license}
 
 ${RenderLicense(data.license)}
 
-## contributing
+## Contributing
 
 ${data.contributing}
 
