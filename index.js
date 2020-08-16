@@ -40,7 +40,7 @@ const questions = [
     type: "input",
     message: "What are the steps required to install your project?",
     name: "install",
-    default: "Step1: Run npm install and Step2: Run node index.js"
+    default: "Step 1: Run npm install and Step 2: Run node index.js"
   },
 
   {
@@ -48,7 +48,7 @@ const questions = [
     message: "What are the steps required to run your project?",
     name: "usage",
     default:
-      "1.Run node index.js 2.Answer the questions above 3.The README file will then be generated with your response."
+    "1.Run node index.js 2.Answer the questions presented 3.The README file will then be generated with your response."
   },
 
   {
@@ -72,15 +72,9 @@ const questions = [
     message:
       "How should people contact you if there are questions?",
     name: "questions",
-    default: "If you have any questions, contact ${data.username} on GitHub."
+    default: "If you have any questions, please contact me on Github"
   },
 
-  {
-    type: "input",
-    name: "badge",
-    message: "Please provide the badges links that you want",
-    default: "License:MIT"
-},
 
   {
     type: "input",
@@ -89,7 +83,7 @@ const questions = [
     default: "MIT"
   }
 ];
-//answers.username
+
 
 function init() {
   inquirer.prompt(questions).then(answers => {
