@@ -3,8 +3,8 @@
 ![Git](background.PNG)  
 # Readme File Generator 
 
-![Badges](https://img.shields.io/badge/License-KJ-Labs-Teal)
-![Badges](https://img.shields.io/badge/License-MIT-Blue)
+![Badges](https://img.shields.io/badge/License-KJ-Labs-Blue)
+![Badges](https://img.shields.io/badge/License-MIT-Green)
 
 
 ## Description 
