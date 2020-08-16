@@ -32,7 +32,7 @@ const questions = [
   {
     type: "input",
     message: "How do you describe your Project?.",
-    name: "desc",
+    name: "description",
     default:
       "The purpose of this project is to create a customized readme file, without having to manually format the data and add all the sections needed."
   },
@@ -40,7 +40,7 @@ const questions = [
   {
     type: "input",
     message: "What are the steps required to install your project?",
-    name: "install",
+    name: "installation",
     default: "Step 1: Run npm install"
   },
 

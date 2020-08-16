@@ -8,8 +8,8 @@ The purpose of this project is to create a customized readme file, without havin
 
 ## Table of contents
 
-- [Description](#desc)
-- [Installation](#install)
+- [Description](#description)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributors](#contributors)

@@ -9,12 +9,12 @@ function generateMarkdown(data, githubInfo) {
 
 ## Description 
 
-${data.desc}
+${data.description}
 
 ## Table of contents
 
-- [Description](#desc)
-- [Installation](#install)
+- [Description](#description)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributors](#contributors)
@@ -26,7 +26,7 @@ ${data.desc}
 
 ## Installation
 
- ${data.install}
+ ${data.installation}
 
 ## Usage
 
