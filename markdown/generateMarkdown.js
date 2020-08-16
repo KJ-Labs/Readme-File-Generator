@@ -1,7 +1,7 @@
 function generateMarkdown(data, githubInfo) {
   return `
 # **${data.title}**
-${data.badge}
+![badmath](https://img.shields.io/github/repo-size/${data.username}/${data.repo})
 
 ## Description 
 

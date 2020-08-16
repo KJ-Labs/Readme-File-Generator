@@ -1,6 +1,6 @@
 
 # **Readme File Generator **
-License:MIT
+![badmath](https://img.shields.io/github/repo-size/KJ-Labs/Readme-File-Generator)
 
 ## Description 
 
