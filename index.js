@@ -1,12 +1,13 @@
+
+// List of packages required to run program. 
 var inquirer = require("inquirer");
 var generateMarkdown = require("./markdown/generateMarkdown");
 var axios = require("axios");
 var fs = require("fs");
 
-// Require all npm packages and filess
 
+// Generates all the questions to the user, with defaults applied to prevent blank spaces. 
 const questions = [
-  // questions to user using "inquirer"
   {
     type: "input",
     message: "What is your GitHub user name?",
@@ -40,7 +41,7 @@ const questions = [
     type: "input",
     message: "What are the steps required to install your project?",
     name: "install",
-    default: "Step 1: Run npm install and Step 2: Run node index.js"
+    default: "Step 1: Run npm install"
   },
 
   {
@@ -48,7 +49,7 @@ const questions = [
     message: "What are the steps required to run your project?",
     name: "usage",
     default:
-    "1.Run node index.js 2.Answer the questions presented 3.The README file will then be generated with your response."
+    "Step 1. Run node index.js Step 2. Answer the questions presented Step 3.The README file will then be generated with your responses."
   },
 
   {
@@ -78,9 +79,9 @@ const questions = [
 
   {
     type: "list",
-    message: "What is the license used?",
+    message: "What is the license for this project?",
     name: "license",
-    choices: ["Apache",  "MIT", "GTL"]
+    choices: [  "MIT", "APACHE", "GNU"]
 
   },
   {

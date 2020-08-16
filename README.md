@@ -1,6 +1,6 @@
 
 # **Readme File Generator **
-![Badges](https://img.shields.io/badge/License-MIT-Blue)
+![Badges](https://img.shields.io/badge/License-APACHE-Blue)
 
 ## Description 
 
@@ -21,24 +21,15 @@
 
 ## Installation
 
- Step 1: Run npm install and Step 2: Run node index.js
+ Step 1: Run npm install
 
 ## Usage
 
-1.Run node index.js 2.Answer the questions presented 3.The README file will then be generated with your response.
+Step 1. Run node index.js Step 2. Answer the questions presented Step 3.The README file will then be generated with your responses.
 
 ## License
-MIT
-
-
-
-if (MIT = 'MIT') {
-  "MIT License"
-} else if (MIT =  'APACHE') {
-  "Apache License"
-} else {
- "GPL License"
-}
+APACHE 
+2020 Licensed under the Apache License, Version 2.0 (the License) may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Contributors
 
