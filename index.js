@@ -43,6 +43,13 @@ const questions = [
     default: "screenshot.PNG"
   },
 
+  {
+    type: "input",
+    message: "Is there a background image you want? If so, please put it below.",
+    name: "background",
+    default: "background.PNG"
+  },
+
 
 
   {
@@ -73,7 +80,7 @@ const questions = [
     message:
       "Who made this project?",
     name: "contributors",
-    default: "KJ-Labs"
+    default: "The owner of this project is KJ-Labs, you're welcome to contribute"
   },
 
   {
