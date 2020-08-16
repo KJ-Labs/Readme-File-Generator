@@ -8,7 +8,9 @@ function generateMarkdown(data, githubInfo) {
 ![Git](${data.background})  
 # ${data.title}
 
+![Badges](https://img.shields.io/badge/License-${data.username}-Teal)
 ![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
+
 
 ## Description 
 ${data.description}
@@ -17,9 +19,6 @@ ${data.description}
 ![Git](${data.video})  
 
 
-## Screenshots
-![Git](${data.screenshots})  
- 
 ## Table of contents
 
 - [Description](#description)
@@ -65,7 +64,8 @@ ${data.tests}
 
 - [Project Repo](https://github.com/KJ-Labs/${data.repo})
 
-
+## Screenshots
+![Git](${data.screenshots})  
 
 
 `;
