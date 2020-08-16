@@ -50,8 +50,6 @@ const questions = [
     default: "background.PNG"
   },
 
-
-
   {
     type: "input",
     message: "How do you describe your Project?.",
@@ -80,7 +78,7 @@ const questions = [
     message:
       "Who made this project?",
     name: "contributors",
-    default: "The owner of this project is KJ-Labs, you're welcome to contribute"
+    default: "The owner of this project is KJ-Labs, you're welcome to contribute."
   },
 
   {
@@ -96,7 +94,7 @@ const questions = [
     message:
       "How should people contact you if there are questions?",
     name: "questions",
-    default: "If you have any questions, please contact me on Github"
+    default: "If you have any questions, please contact me on Github."
   },
 
 
@@ -115,7 +113,7 @@ const questions = [
   }
 ];
 
-
+//Function to trigger the readme generator to run with the above answers. 
 function init() {
   inquirer.prompt(questions).then(answers => {
     console.log(answers);

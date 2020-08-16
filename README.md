@@ -42,7 +42,7 @@ MIT
 
 ## Contributing
 
-The owner of this project is KJ-Labs, you're welcome to contribute
+The owner of this project is KJ-Labs, you're welcome to contribute.
 
 ## Tests
 
@@ -50,7 +50,7 @@ N/A
 
 ## Questions
 
-- If you have any questions, please contact me on Github
+- If you have any questions, please contact me on Github.
 - email@gmail.com
 - [KJ-Labs](https://github.com/KJ-Labs)
 
