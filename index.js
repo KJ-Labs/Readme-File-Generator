@@ -10,7 +10,8 @@ const questions = [
   {
     type: "input",
     message: "What is your GitHub user name?",
-    name: "KJ-Labs"
+    name: "username", 
+    default: "KJ-Labs"
   },
 
   {
@@ -57,6 +58,29 @@ const questions = [
     name: "contributors",
     default: "KJ-Labs"
   },
+
+  {
+    type: "input",
+    message:
+      "Are there any test examples for this project",
+    name: "tests",
+    default: "N/A"
+  },
+
+  {
+    type: "input",
+    message:
+      "How should people contact you if there are questions?",
+    name: "questions",
+    default: "If you have any questions, contact ${data.username} on GitHub."
+  },
+
+  {
+    type: "input",
+    name: "badge",
+    message: "Please provide the badges links that you want",
+    default: "badge1"
+},
 
   {
     type: "input",
