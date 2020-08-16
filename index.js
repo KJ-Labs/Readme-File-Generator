@@ -61,7 +61,7 @@ const questions = [
   {
     type: "input",
     message: "What is the license used?",
-    name: "License",
+    name: "license",
     default: "MIT"
   }
 ];

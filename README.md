@@ -1,48 +1,42 @@
 
-# **Readme File Generator**
-
-undefined
+# **Readme File Generator **
 
 ## Description 
 
-undefined
+ This application creates a customized readme file for your projects
 
 ## Table of contents
 
-- [Description](#Description)
-- [Installation](#Installation)
+- [Description](#Desc)
+- [Installation](#Install)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#license)
 - [Contributors](#Contributors)
-- [Test](#Test)
 - [Repository Link](#Repository)
 - [GitHub Info](#GitHub) 
 
 
 ## Installation
 
-        undefined
+        Step1: Run npm install and Step2: Run node index.js
 
 ## Usage
 
-After you've ran npm install, then just answer the above questions. 
+1.Run node index.js 2.Answer the questions above 3.The README file will then be generated with your response.
 
 ## Licence
 
-undefined
+MIT
 
 ## Contributors
 
-undefined
+KJ-Labs
 
-## Test
-
-undefined
 
 
 ## Repository
 
-- [Project Repo](https://github.com/KJ-Labs/Readme-File-Generator)
+- [Project Repo](Readme-File-Generator)
 
 ## GitHub
 
