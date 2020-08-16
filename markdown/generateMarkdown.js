@@ -8,8 +8,7 @@ function generateMarkdown(data, githubInfo) {
 ![Git](${data.background})  
 # ${data.title}
 
-![Badge1](https://img.shields.io/badge/Username-${data.username}-Blue)
-![Badge2](https://img.shields.io/badge/License-${data.license}-Green)
+![Badge1](https://img.shields.io/badge/License-${data.license}-Blue)
 
 
 ## Description 
