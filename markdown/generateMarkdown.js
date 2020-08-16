@@ -1,7 +1,7 @@
 function generateMarkdown(data, githubInfo) {
   return `
 # **${data.title}**
-![badmath](https://img.shields.io/github/repo-size/${data.license})
+
 
 ## Description 
 
@@ -17,7 +17,7 @@ ${data.desc}
 - [Tests](#tests)
 - [Questions](#questions)
 - [Repository Link](#repository)
-- [GitHub Info](#gitHub) 
+- [Github](#email) 
 
 
 ## Installation
@@ -31,7 +31,7 @@ ${data.usage}
 ## license
 
 ${data.license}
-
+![Badges](https://img.shields.io/badge/License-${data.license}-Blue)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -63,7 +63,13 @@ ${data.questions}
 
 ## Repository
 
-- [Project Repo](${data.repo})
+- [Project Repo]("https://github.com/KJ-Labs/${data.repo}")
+
+
+## Github
+- ${data.email}
+- ${data.username}
+- [Github Link](https://github.com/${data.username})
 
 `;
 }

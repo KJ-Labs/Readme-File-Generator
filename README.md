@@ -1,6 +1,6 @@
 
 # **Readme File Generator **
-![badmath](https://img.shields.io/github/repo-size/MIT)
+
 
 ## Description 
 
@@ -16,7 +16,7 @@
 - [Tests](#tests)
 - [Questions](#questions)
 - [Repository Link](#repository)
-- [GitHub Info](#gitHub) 
+- [Github](#email) 
 
 
 ## Installation
@@ -27,13 +27,11 @@
 
 1.Run node index.js 2.Answer the questions presented 3.The README file will then be generated with your response.
 
-## Licence
+## license
 
 MIT
+![Badges](https://img.shields.io/badge/License-MIT-Blue)
 
-
-MIT License
-Copyright (c) [year] [username]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -60,9 +58,15 @@ N/A
 
 ## Questions
 
-If you have any questions, contact me on Github
+If you have any questions, please contact me on Github
 
 ## Repository
 
-- [Project Repo](Readme-File-Generator)
+- [Project Repo]("https://github.com/KJ-Labs/Readme-File-Generator")
+
+
+## Github
+- email@gmail.com
+- KJ-Labs
+- [Github Link](https://github.com/KJ-Labs)
 

@@ -3,7 +3,7 @@ var generateMarkdown = require("./markdown/generateMarkdown");
 var axios = require("axios");
 var fs = require("fs");
 
-// Require all npm packages and files
+// Require all npm packages and filess
 
 const questions = [
   // questions to user using "inquirer"
@@ -81,6 +81,12 @@ const questions = [
     message: "What is the license used?",
     name: "license",
     default: "MIT"
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+    default: "email@gmail.com"
   }
 ];
 
