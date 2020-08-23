@@ -61,4 +61,7 @@ N/A
 ## Screenshots
 ![Git](screenshot.PNG)  
 
+## External Credit
+Background Image:  https://www.vecteezy.com/vector-art/101253-free-abstract-background-1
+
 
